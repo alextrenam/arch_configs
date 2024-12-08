@@ -1,0 +1,16 @@
+* List of config files
+
+** emacs
+** kitty
+** zsh
+** hypr
+
+* Wishlist
+
+** Essentials
+
+- [ ] Audio
+- [ ] Auto-start Hyprland on login
+- [ ] Nice login screen
+
+** Nice to have     
