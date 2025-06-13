@@ -1,0 +1,52 @@
+{
+    "modules-left": ["network", "cpu", "memory", "tray", "mpris"],
+    "modules-center": ["clock"],
+    "modules-right": ["pulseaudio", "temperature", "battery"],
+    "spacing": 20,
+    "cpu": {
+	"format": " {:.0f}%",
+	"interval": 5
+    },
+    "memory": {
+	"format": " {}%",
+	"interval": 5
+    },
+    "network": {
+	"format-wifi": " {essid} ({signalStrength}%)",
+	"format-ethernet": " {ifname}",
+	"format-disconnected": " Disconnected",
+    },
+    "mpris": {
+	"player-icons": {
+	    "default": "",
+	    "spotify": "",
+	    "mpd": ""
+	},
+	"format": "{player_icon} {title} - {artist}"
+    },
+    "clock": {
+	"format": "{:%A %d %b  %H:%M}",  // e.g., Mon 10 Jun  21:42
+	"tooltip-format": "{:%A, %d %B %Y}",
+	"interval": 60
+    },
+    "pulseaudio": {
+	"format": "{icon} {volume}%",
+	"format-muted": " Muted",
+	"scroll-step": 5,
+	"format-icons": {
+	    "headphones": "",
+	    "default": ["", ""]
+	}
+    },
+    "temperature": {
+	"format": "{temperatureC}°C",
+	"interval": 5
+    },
+    "battery": {
+	"format-charging": " {capacity}%",
+	"format-discharging": " {capacity}%",
+	"format-full": " {capacity}%",
+	"interval": 5
+    }
+}
+

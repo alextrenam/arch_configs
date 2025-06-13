@@ -1,0 +1,25 @@
+{
+    "modules-left": ["cpu", "memory", "network", "tray"],
+    "modules-center": ["clock"],
+    "modules-right": ["wireplumber", "temperature", "battery"],
+    "spacing": 20,
+    "cpu": {
+	"format": " {:.0f}%",
+	"interval": 5
+    },
+    "memory": {
+	"format": " {}%",
+	"interval": 5
+    },
+    "temperature": {
+	"format": "{temperatureC}°C",
+	"interval": 5
+    },
+    "battery": {
+	"format-charging": " {capacity}%",
+	"format-discharging": " {capacity}%",
+	"format-full": " {capacity}%",
+	"interval": 5
+    }
+}
+
