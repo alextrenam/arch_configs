@@ -39,8 +39,16 @@
 	}
     },
     "temperature": {
-	"format": "{temperatureC}°C",
-	"interval": 5
+	"interval": 5,
+	"thermal-zone": 0,
+	"critical-threshold": 85,
+	"thermal-zone-threshold": 70,
+	"format": "{icon}{temperatureC}°C",
+	"format-warn": "<span class='warn'>{temperatureC}°C</span>",
+	"format-critical": "<span class='critical'>{temperatureC}°C</span>",
+	"format-icons": {
+	    "default": ["", "", "", ""]
+	}
     },
     "battery": {
 	"format-charging": " {capacity}%",

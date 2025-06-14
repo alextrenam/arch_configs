@@ -2,6 +2,8 @@
     font-family: "FiraCode Nerd Font", "Symbols Nerd Font Mono", monospace;
     font-size: 18px;
     font-weight: bold;
+    color: #ffffff;
+    padding-top: 1px;
 }
 
 .modules-left {
@@ -12,6 +14,14 @@
     padding-right: 10px;
 }
 
-#temperature {
-    color: #FF4500;
+window#waybar {
+    background-color: rgba(30, 30, 46, 0.6);
+}
+
+.temperature > span.warn {
+    color: #FFA500; /* orange for warning */
+}
+
+.temperature > span.critical {
+    color: #FF4500; /* red for critical */
 }
