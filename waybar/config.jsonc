@@ -1,5 +1,5 @@
 {
-    "modules-left": ["network", "cpu", "memory", "tray", "mpris"],
+    "modules-left": ["network", "cpu", "memory"],
     "modules-center": ["clock"],
     "modules-right": ["pulseaudio", "temperature", "battery"],
     "spacing": 20,
