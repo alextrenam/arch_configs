@@ -1,10 +1,12 @@
-* List of config files
-
-** emacs
-** kitty
+* emacs
+* hypr   
+* Terminals
+  
 ** zsh
-** hypr
-
+** ghostty
+** wezterm
+** kitty
+   
 * Wishlist
 
 ** Essentials
@@ -13,4 +15,4 @@
 - [ ] Auto-start Hyprland on login
 - [ ] Nice login screen
 
-** Nice to have     
+     
