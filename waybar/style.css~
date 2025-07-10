@@ -1,0 +1,9 @@
+* {
+    font-family: "FiraCode Nerd Font", monospace;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#temperature {
+    color: #FF4500;
+}

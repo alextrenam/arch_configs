@@ -1,0 +1,13 @@
+My emacs_config and arch_configs git repos sort out lots of the customisation
+for:
+- Emacs
+- Hyprland
+- Waybar
+
+Things I need to do:
+- Install screen lock (hyprlock)
+- Install display manager (SDDM with black hole theme)
+  IMPORTANT: to avoid login loop I need to set the session to launch Hyprland
+- Install audio (Pulse audio)
+- Optionally supress GRUB menu for faster boot if not dual booting
+- Add a nice looking splash screen to hide logs on boot (Plymouth)

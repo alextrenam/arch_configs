@@ -1,18 +1,45 @@
-* emacs
-* hypr   
-* Terminals
-  
-** zsh
-** ghostty
-** wezterm
-** kitty
-   
+* Config files
+
+- emacs
+
+Terminal stuff:
+- kitty
+- ghostty
+- wezterm
+- zsh
+
+Hyprland stuff:
+- hyprland
+- hyprlock
+
 * Wishlist
 
 ** Essentials
 
-- [ ] Audio
-- [ ] Auto-start Hyprland on login
-- [ ] Nice login screen
+*** On Boot
 
+- [ ] Boot splash (Plymouth) hides the boot log text after GRUB but before login
+- [ ] Customise GRUB to make it look nice
+- [ ] Auto-start Hyprland on login
+
+*** Environment
+
+- [ ] notification daemon (swaync?)
+- [ ] config waybar
+
+*** Audio
+
+- [X] Basic audio
+- [ ] Bluetooth
+- [ ] Check external sound card works (I have not setup "pro audio")
+
+*** Applications
+
+- [ ] file manager (nautilus or dolphin?)
+
+<<<<<<< HEAD
      
+=======
+** Nice to have     
+
+- [ ] keyboard backlit
