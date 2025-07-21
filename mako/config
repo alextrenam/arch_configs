@@ -1,0 +1,8 @@
+# Default styling (blue)
+background-color=#1e90ff
+text-color=#ffffff
+
+# Critical urgency (red)
+[urgency=critical]
+background-color=#ff0000
+text-color=#ffffff

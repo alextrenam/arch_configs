@@ -1,0 +1,10 @@
+[Unit]
+Description=Run battery warning every minute
+
+[Timer]
+OnBootSec=5s
+OnUnitActiveSec=20s
+Unit=battery_warning.service
+
+[Install]
+WantedBy=default.target

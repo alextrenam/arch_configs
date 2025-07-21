@@ -1,0 +1,6 @@
+[Unit]
+Description=Battery low warning
+
+[Service]
+Type=oneshot
+ExecStart=/home/alex/Repos/arch_configs/scripts/battery_warning.sh

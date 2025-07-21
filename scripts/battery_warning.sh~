@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Battery threshold
+THRESHOLD=10
+BATTERY_LEVEL=$(cat /sys/class/power_supply/BAT0/capacity)
+STATUS=$(cat /sys/class/power_supply/BAT0/status)
+
+if [ "$BATTERY_LEVEL" -le "$THRESHOLD" ] && [ "$STATUS" == "Discharging" ]; then
+    notify-send -u critical "⚠️ Battery Low" "Battery is at ${BATTERY_LEVEL}%!"
+    
+    play -n synth 0.5 sine 1000
+fi
