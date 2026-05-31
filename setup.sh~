@@ -1,0 +1,25 @@
+# ------------------------------------------------
+#  Hyprland
+# ------------------------------------------------
+sudo pacman -Syu hyprland
+
+# Symlink config (might need to delete auto-generated one and run this outside of Hyprland)
+ln -s ~/Repos/arch_configs/hypr/ ~/.config/hypr
+
+# ------------------------------------------------
+#  Waybar
+# ------------------------------------------------
+sudo pacman -Syu waybar
+
+# Symlink config
+ln -s ~/Repos/arch_configs/waybar/ ~/.config/waybar
+
+# Fonts for waybar (install and refresh cache)
+sudo pacman -Syu ttf-firacode-nerd ttf-nerd-fonts-symbols-mono
+fc-cache -fv
+# ------------------------------------------------
+#  Emacs
+# ------------------------------------------------
+sudo pacman -Syu emacs
+
+git clone git@github.com:alextrenam/emacs_config ~/Repos/emacs_config
